@@ -30,10 +30,8 @@ config = PluginConfig(
     middleware=MiddlewareConfig(
         modules=[
             modules.TimezoneSafeControlConfig(order=1, is_critical=True),
-            modules.CutJunkCharactersFromDocumentTextConfig(order=2, is_critical=True,
-                                                            p_fields=['text', 'abstract']),
-            modules.FilterOnlyNewDocumentWithDB(order=3, is_critical=True),
-            modules.SaveDocument(order=4, is_critical=True),
+            modules.FilterOnlyNewDocumentWithDB(order=2, is_critical=True),
+            modules.SaveDocument(order=3, is_critical=True),
         ],
         bus=None,
     ),
