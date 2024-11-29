@@ -41,7 +41,7 @@ config = PluginConfig(
         entry=payload.entry.EntryConfig(
             method='content',
             params=[
-                payload.entry.ModuleParamConfig(key='driver', module_name=WebDriver, bus=True),
+                payload.entry.ModuleParamConfig(key='web_driver', module_name=WebDriver, bus=True),
                 payload.entry.ConstParamConfig(key='max_count_documents', value=50),
                 # payload.entry.ConstParamConfig(key='url',
                 #                                value='url to the source page'),
