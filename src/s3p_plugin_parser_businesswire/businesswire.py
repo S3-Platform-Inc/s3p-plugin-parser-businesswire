@@ -49,6 +49,7 @@ class BUSINESSWIRE(S3PParserBase):
                     web_link = article_link.get_attribute('href')
                     title = article_link.text
                     pub_date = dateparser.parse(el.find_element(By.TAG_NAME, 'time').get_attribute('datetime'))
+                    pub_date = pub_date.replace(tzinfo=None)
                     self._driver.execute_script("window.open('');")
                     self._driver.switch_to.window(self._driver.window_handles[1])
                     time.sleep(uniform(0.1, 1.2))
