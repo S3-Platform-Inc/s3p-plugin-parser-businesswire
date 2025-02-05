@@ -1,4 +1,4 @@
-# S3 Platform Plugin Template
+# BusinessWire (S3 Platform Plugin)
 [![Test Plugin](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/plugin_test.yml/badge.svg)](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/plugin_test.yml)
 [![Release plugin](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/build-release.yml/badge.svg)](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/build-release.yml)
 [![Sync plugin to S3](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/sync-release.yml/badge.svg)](https://github.com/S3-Platform-Inc/s3p-plugin-parser-businesswire/actions/workflows/sync-release.yml)
